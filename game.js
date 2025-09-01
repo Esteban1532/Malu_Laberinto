@@ -23,7 +23,7 @@ class BallController {
   constructor(scene, ball, speed) {
     this.scene = scene;
     this.ball = ball;
-    this.speed = speed;
+    this.speed = 270;
     this.path = [];
     this.currentIndex = 0;
     this.target = null;
@@ -527,4 +527,5 @@ const config = {
 };
 
 const game = new Phaser.Game(config);
+
 
