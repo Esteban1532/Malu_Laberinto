@@ -163,7 +163,7 @@ class MyGame extends Phaser.Scene {
   // ---------------------------------------------------
   create() {
     this.T = 40;
-    this.speedTank = 200;
+    this.speedTank = 280;
     this.speedBall = 220;
     this.bulletSpeed = 600;
 
@@ -527,3 +527,4 @@ const config = {
 };
 
 const game = new Phaser.Game(config);
+
